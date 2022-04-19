@@ -49,6 +49,7 @@ letter-spacing: 0.53125px;
 
 
 }
+
 img{
   margin-right: 15px;
 }
@@ -374,6 +375,7 @@ color: #F2F2F2;
       color: #FFFFFF;
       text-decoration: none;
     }
+   
   @media screen and (max-width:400px) {
       .nav{
         width: 327px;
