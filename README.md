@@ -7,6 +7,6 @@
 4. Cta
 5. footer
 
-##css
+## css
 1. use of flexbox 
 2. media query to transition to mobile resolution
