@@ -106,7 +106,7 @@ justify-content: center;
 /* productive */
 .productive-container{
    
-    height: 961px;
+    height: 750px;
     width: 100%;
    
    
@@ -231,10 +231,10 @@ text-align: center;
 /* footer */
 
 footer{
+    
     height: 590px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 footer a{
     font-size: 16px;
@@ -245,18 +245,20 @@ footer li{
 line-height: 22px;
 margin-bottom: 9px;
 }
-.footer-container {
-    height: 350px;
-    display: flex;
-flex-direction: column;
-justify-content: space-around;
 
-}
-.footer-container ul{
+.footer ul{
+
     justify-content: space-around;
 }
 .contact img{
 height: 30px;
 margin-bottom: 15px;
+}
+
+.about-us li{
+    width: 200px;
+}
+.about-us2 li{
+    width: 200px;
 }
  }
