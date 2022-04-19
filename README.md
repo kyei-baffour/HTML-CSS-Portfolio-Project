@@ -11,7 +11,7 @@
 1. use of flexbox 
 2. media query to transition to mobile resolution
 
-##Contributors
-#Add your name here
-1.BoaduJnr
-2.kyei-baffour
+## Contributors
+# Add your name here
+1. BoaduJnr
+2. kyei-baffour
