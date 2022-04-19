@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Portfolio Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" 
+rel="stylesheet"> 
 </head>
 <body>
     <div class="nav-container">
@@ -29,26 +34,43 @@
                 <p>
                     Fylo stores your most important files in one location. Access them wherever you need, share and collaborate with friends, family and co-workers.
                 </p>
-                <input type="email" name="" id="" placeholder="Enter your email...">
+        <form action="/">
+            <div class="box">
+                
+                <input type="email" name="email" id="" placeholder="  Enter your email..." 
+               class="error" value="" required>
                 <button>Get Started</button>
+           </div> 
+         </form>
+       
+
             </div>
             <div class="hero2">
                 <img src="images/illustration-1.svg" alt="">
-            </div>
+            </div> 
+     
+        </section>
+        <section class="curve">
+            <div class="curve1">
+                <img src="images/bg-curve-desktop.svg" alt="">
+             </div>
         </section>
         <div class="productive-container">
- <div class="curve"><img src="images/bg-curve-desktop.svg" alt=""></div>
+            
+        
+         
         <section class="productive">
-           
+  
                 <div class="flyo">
                     <div class="flyo-text">
                     <h2>Stay Productive, where ever you are</h2>
                     <p>Never let location be an issue when accesing your files. 
                         Fylo has you covered for all your file storage needs.</p>
+                        <br>
                     <p>Securely share files and folders with friends, family and
                          colleagues for live collaboration. No email 
                          attachments required!</p>
-                    <a href="#">See how Fylo works</a>
+                    <a href="#">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
                 </div>
                    <div class="icon">
                   <div class="icon-container">
@@ -57,7 +79,8 @@
                      
                         <div>
                             <img src="/images/icon-quotes.svg" alt="open quote" srcset="">
-                        </div> <div>    
+                        </div> 
+                        <div class="ptext">    
                    <p>Fylo has improve our team productivity by an order
                              of magnitude,  Since making the switch to our team 
                              has become a well-oiled collaboration machine</p>
@@ -96,16 +119,25 @@
                      If you have any question, our support team 
                      will be happy to help you</p>
             </div>
+            <form action="/">
             <div class="box">
-                <input type="email" name="" id="" placeholder="email@example.com">
+                <input type="email" name="Email" id=""  placeholder="  email@example.com" 
+                class="error" value="" required> 
                 <button>Get Started For Free</button>
             </div>
+            </form>
+            
 
         </section>
     </main>
     <footer>
-        <div>
-            <img src="/images/logo.svg" alt="Company logo" srcset="">
+        <div class="footer-container">
+
+        
+        <div >
+           <div class="contact">
+            <img src="/images/logo-footer.svg" alt="Company logo" srcset="">
+        </div>
             <ul>
                 <li><img src="/images/icon-phone.svg" alt="">Phone:<a href="tel:+">+1-543-123-4567</a></li>
                 <li><img src="/images/icon-email.svg" alt="">Email:<a href="mailto:"></a>example@fylo.com</li>
@@ -114,22 +146,34 @@
         <!-- <div class="pages"> -->
         <div>
             <ul>
-                <li>About Us</li>
-                <li>Jobs</li>
-                <li>Press</li>
-                <li>Blog</li>
+                <li> <a href="#">About Us</a> </li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
             </ul>
         </div>
         <div>
             <ul>
-                <li>Contact Us</li>
-                <li>Terms</li>
-                <li>Privacy</li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
             </ul>
         </div>
+    </div>
     <!-- </div> -->
         <div class="social">
-            <img src="images/Group 18.png" alt="">
+            <ul>
+                <li>
+                    <a href="#" class="social-link"> <img src="images/facebook.png" alt=""></a>
+                </li>  
+                <li>
+                    <a href="#" class="social-link"><img src="images/twitter.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link"><img src="images/insta.png" alt=""></a>
+                </li>
+            </ul>
+            <!-- <img src="images/Group 18.png" alt=""> -->
         </div>
 
     </footer>

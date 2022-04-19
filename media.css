@@ -1,0 +1,262 @@
+
+  @media screen and (max-width:400px) {
+    *{margin: 0px;
+     padding: 0%;
+
+    }
+    /* body */
+   h2{
+     text-align: center;
+     font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+   }
+   h3{
+     font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+   }
+p{
+ font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+margin: 0%;
+}
+
+li{
+    font-size: 12px;
+}
+
+/* NAV */
+
+.nav-container{
+ width: 90%;
+ margin: 24px 24px 0px 24px  ;
+}
+   nav{
+     
+       width: 327px;
+       height: 24px;
+       justify-content: space-around;
+       flex: 1;
+       font-size: 12px;
+     }
+     .logo{
+         width: 80px;
+         height: 24px;
+         justify-content: space-around;
+     }
+     nav ul{
+         padding: 0%;
+         margin-left: 80px;
+        display:flex;
+        justify-content: space-around ;
+        align-items:center;
+     }
+     
+
+/* hero */
+ .hero{
+width: 100%;
+height: 609px;
+margin-top: 32px;
+justify-content: center;
+   flex-direction: column-reverse;
+ }
+
+ 
+ .hero1 p{
+    margin: 1rem;
+
+ }
+ .hero1 h2{
+     margin: 1rem;
+ }
+     .hero2{
+       height: 225px;
+       width: 304px;
+        
+     }
+     
+
+     .hero input{
+       width: 304px;
+     height: 40px;
+     align-self: center;
+     }
+    .hero button{
+       width: 304px;
+     height: 40px;
+     align-self: center;
+     }
+
+     .flyo-text{
+         width: 350px;
+         display: flex;
+     }
+     .flyo-text p{
+        padding: 5px;
+     }
+     .flyo-text h2{
+        padding: 5px;
+     }
+
+/* productive */
+.productive-container{
+   
+    height: 961px;
+    width: 100%;
+   
+   
+
+
+}
+
+.productive{
+     margin: 0px;
+    padding: 0%;
+     display: flex;
+    flex-direction: column-reverse;
+   justify-content: center;
+}
+.image-ill2{
+ height: 241px;
+width: 320px;
+
+}
+ .productive h2{
+    font-size: 14px;
+    line-height: 21px;
+ }
+ .productive p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+ }
+ .productive a{
+     align-self: center;
+     font-size: 12px;
+line-height: 16px;
+color: #3DA08F;
+text-decoration: underline;
+ }
+ .icon{
+         display: flex;
+  justify-content: center; 
+    width: 100%;
+ }
+ .icon-container{
+     width:310px ;
+   height: 180px;
+
+   
+
+    
+ }
+ 
+ .ptext p{
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.384615px;
+    text-align: left;
+    
+    
+ }
+ 
+ .avatar{
+     width: 130px;
+     margin: 0%;
+     
+ }
+.avatar h3{
+
+font-weight: 700;
+font-size: 9px;
+letter-spacing: 0.45px;
+text-align: left;
+}
+.avatar p{
+    
+    font-weight: 400;
+    font-size: 7px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.kyle{
+    margin-left: 5px;
+}
+
+/* get */
+
+.get{
+    width: 100%;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.get input{
+    Width:240px;
+Height:32px;
+align-self: center;
+}
+.get button{
+    Width:240px;
+    Height:32px;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+border-radius: 1.47059px;
+align-self: center;
+}
+
+.go{
+    width: 300px;
+}
+.go h2{
+    font-size: 18px;
+line-height: 24px;
+padding-bottom: 5px;
+text-align: center;
+}
+.go p{
+    font-size: 14px;
+line-height: 21px;
+text-align: center;
+}
+
+
+/* footer */
+
+footer{
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer a{
+    font-size: 16px;
+    line-height: 22px;
+}
+footer li{
+    font-size: 16px;
+line-height: 22px;
+margin-bottom: 9px;
+}
+.footer-container {
+    height: 350px;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.footer-container ul{
+    justify-content: space-around;
+}
+.contact img{
+height: 30px;
+margin-bottom: 15px;
+}
+ }
